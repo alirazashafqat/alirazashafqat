@@ -1,0 +1,22 @@
+[
+  {
+    "title": "250226 Ali Raza Shafqat CV.docx",
+    "category": "provided document",
+    "claim": "Primary evidence for profile, positions, education, publications, projects, grants, awards, and contact details.",
+    "sourceUrl": "",
+    "sourceName": "User-provided CV",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "Circular composite conceptual visualization",
+    "category": "generated visual",
+    "claim": "Decorative conceptual image used to communicate the circular-material research theme; not documentary evidence.",
+    "sourceUrl": "",
+    "sourceName": "OpenAI image generation",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  }
+]

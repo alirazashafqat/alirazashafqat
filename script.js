@@ -1,10 +1,23 @@
-const publications=[
- {type:'article',year:'2023',title:'Circularity in Materials: A Review on Polymer Composites Made from Agriculture and Textile Waste',meta:'Ali Raza Shafqat · Muzzamal Hussain · Yasir Nawab et al.',doi:'10.1155/2023/5872605'},
- {type:'article',year:'2014',title:'Effect of Spinning Variables on Packing Density of Cotton Yarn',meta:'U. Hussain · A. R. Shafqat et al. · Indian Journal of Fiber and Textile Research',doi:''},
- {type:'chapter',year:'2024',title:'Eco-design of Textiles',meta:'In Circularity in Textiles · Springer, Cham · Alberto Saccavini',doi:'10.1007/978-3-031-49479-6_3'},
- {type:'chapter',year:'2024',title:'Sustainability and Materials',meta:'In Engineering Materials: Fundamentals, Processing and Properties · Springer Nature',doi:'10.1007/978-3-031-72263-9_11'},
- {type:'chapter',year:'2024',title:'Ecotourism Taking Modernity to the Deprived Regions of the World',meta:'In Supporting Environmental Stability Through Ecotourism · IGI Global',doi:'10.4018/979-8-3693-1030-4.ch008'},
- {type:'conference',year:'2025',title:'Exploring Waste Streams: Transforming Local Textile and Agricultural Wastes into Composite Materials',meta:'4th International Conference on Knowledge Based Textiles · NTU, Faisalabad',doi:''},
- {type:'conference',year:'2024',title:'Transforming Waste Into Value: Utilizing Post-Industrial and Post-Consumer Waste for Fabricating Thermoplastic Composites',meta:'4th International Conference on Polymers and Composites · NTU, Faisalabad',doi:''}
-];
-const list=document.querySelector('#pub-list'); function render(filter='all'){list.innerHTML=publications.filter(p=>filter==='all'||p.type===filter).map(p=>`<article class="pub"><div><span class="type">${p.type}</span><br><small>${p.year}</small></div><div><h3>${p.title}</h3><p>${p.meta}</p></div>${p.doi?`<a href="https://doi.org/${p.doi}" target="_blank" rel="noreferrer">View DOI ↗</a>`:'<span></span>'}</article>`).join('')}; render(); document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelector('.filter.active').classList.remove('active');b.classList.add('active');render(b.dataset.filter)}));
+const toggle=document.querySelector('.menu-toggle');
+const nav=document.querySelector('#site-nav');
+if(toggle&&nav){
+  toggle.addEventListener('click',()=>{
+    const open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    nav.classList.toggle('open',!open);
+  });
+}
+document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
+const current=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+document.querySelectorAll('.nav a').forEach(link=>{
+  if((link.getAttribute('href')||'').toLowerCase()===current)link.setAttribute('aria-current','page');
+});
+document.querySelectorAll('[data-filter]').forEach(button=>{
+  button.addEventListener('click',()=>{
+    const value=button.dataset.filter;
+    document.querySelectorAll('[data-filter]').forEach(b=>b.classList.toggle('active',b===button));
+    document.querySelectorAll('[data-publication]').forEach(item=>{
+      item.hidden=value!=='all'&&item.dataset.publication!==value;
+    });
+  });
+});

@@ -1,0 +1,112 @@
+[
+  {
+    "title": "250226 Ali Raza Shafqat CV.docx",
+    "category": "provided document",
+    "claim": "Primary evidence for profile, positions, education, publications, projects, grants, awards, and contact details.",
+    "sourceUrl": "",
+    "sourceName": "User-provided CV",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "BUITEMS Department of Textile Engineering & Design faculty profile",
+    "category": "institutional profile",
+    "claim": "Lists Ali Raza Shafqat as Lecturer and currently on study leave.",
+    "sourceUrl": "https://buitms.edu.pk/Profile/TKTU/Faculty/FOE/DPTXTE",
+    "sourceName": "BUITEMS",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "Circularity in Materials: A Review on Polymer Composites Made from Agriculture and Textile Waste",
+    "category": "journal article",
+    "claim": "Confirms article title, authorship, NTU and BUITEMS affiliations, DOI, and ORCID 0000-0002-8767-9639.",
+    "sourceUrl": "https://doi.org/10.1155/2023/5872605",
+    "sourceName": "International Journal of Polymer Science / Wiley",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "Textile Composites and Sustainability: A Circular Approach",
+    "category": "edited book",
+    "claim": "Confirms Ali Raza Shafqat as co-editor of the 2026 CRC Press volume and contributor to its introduction, design-for-circularity chapter, and conclusion.",
+    "sourceUrl": "https://www.routledge.com/Textile-Composites-and-Sustainability-A-Circular-Approach/Nawab-Shafqat-Hussain/p/book/9781032978956",
+    "sourceName": "Routledge / CRC Press",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "Circularity in Textiles",
+    "category": "publisher record",
+    "claim": "Confirms the chapter Eco-design of Textiles by Ali Raza Shafqat and Alberto Saccavini.",
+    "sourceUrl": "https://link.springer.com/book/10.1007/978-3-031-49479-6",
+    "sourceName": "Springer",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "Engineering Materials: Fundamentals, Processing and Properties",
+    "category": "publisher record",
+    "claim": "Confirms the chapter Sustainability and Materials by Muzzamal Hussain and Ali Raza Shafqat.",
+    "sourceUrl": "https://link.springer.com/book/10.1007/978-3-031-72263-9",
+    "sourceName": "Springer",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "Pakistan Engineering Council textile register",
+    "category": "professional record",
+    "claim": "Confirms registration in the textile engineering discipline.",
+    "sourceUrl": "https://www.pec.org.pk/wp-content/uploads/2024/07/TEXTILE.pdf",
+    "sourceName": "Pakistan Engineering Council",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "CORTEP 2024 conference programme",
+    "category": "conference record",
+    "claim": "Confirms the textile dead-waste composites contribution and NTU affiliation.",
+    "sourceUrl": "https://www.cortep.tuiasi.ro/wp-content/uploads/2024/11/CORTEP-Conference-program_online-version.pdf",
+    "sourceName": "CORTEP",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "ICOR 2026 final programme",
+    "category": "conference record",
+    "claim": "Confirms the technical talk on local waste streams and sustainable composite materials for interior decoration.",
+    "sourceUrl": "https://ukm.edu.pk/assets/downloads/Master%20File%20ICOR%202026%20-Final%20Program.pdf",
+    "sourceName": "University of Kamalia",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  },
+  {
+    "title": "Ali Raza Shafqat professional profile",
+    "category": "professional profile",
+    "claim": "Supports ReComp Solutions leadership and recent professional-development records.",
+    "sourceUrl": "https://pk.linkedin.com/in/alirazashafqat",
+    "sourceName": "LinkedIn",
+    "verifiedDate": "2026-07-24",
+    "confidence": "medium",
+    "publish": true
+  },
+  {
+    "title": "Circular composite conceptual visualization",
+    "category": "generated visual",
+    "claim": "Decorative conceptual image used to communicate the circular-material research theme; not documentary evidence.",
+    "sourceUrl": "",
+    "sourceName": "OpenAI image generation",
+    "verifiedDate": "2026-07-24",
+    "confidence": "high",
+    "publish": true
+  }
+]

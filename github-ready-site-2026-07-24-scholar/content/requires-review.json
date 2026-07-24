@@ -1,0 +1,17 @@
+[
+  {
+    "item": "Current doctoral degree status and use of the title Dr.",
+    "reason": "The supplied CV listed an expected 2025 completion, while a 2026 conference programme uses Dr. and the current BUITEMS page does not. The public site therefore uses neutral doctoral-research wording until confirmed directly.",
+    "publish": false
+  },
+  {
+    "item": "Accepted article without a publisher record",
+    "reason": "The supplied CV supports the remaining mathematical-model record, but a publisher or proceedings URL is still needed before presenting it as externally verified.",
+    "publish": false
+  },
+  {
+    "item": "ICKT 2025 conference contribution",
+    "reason": "Search results expose only a truncated title in a tentative programme. It remains excluded until the complete title and final programme are verified.",
+    "publish": false
+  }
+]
